@@ -13,7 +13,7 @@ export default class Tablero extends Component{
 			this.props.parejaSeleccionada.indexOf(carta) > -1;
 			return <Carta
 			key = {index}
-			incono = {carta.icono}
+			icono = {carta.icono}
 			estaSiendoComparada = {estaSiendoComparada}
 			seleccionarCarta = {() => 
 			this.props.seleccionarCarta(carta)
